@@ -13,7 +13,7 @@ export default [
     layerUrl: "/assets/cds-asset.png",
     stack: ["React.js", "Node.js"],
     description:
-      "A canine tracker for NPO Cell Dogs to manage dogs in training at correctional programs as well as adoption 🐕",
+      "A canine tracker for NPO Cell Dogs to manage dogs in training at correctional programs as well as adoption! Developed alongside Commit the Change at UC Irvine 🐕",
   },
   {
     title: "RFLCTN: Online Personal Journal",
