@@ -22,7 +22,7 @@ const Introduction = () => {
           <p className="text-sm md:text-base font-regular">
             I'm a 3rd year Computer Science & Engineering student at the
             University of California, Irvine. I'm currently a full-stack
-            developer for Commit the Change &#123;💜&#125; at UC Irvine! <br />
+            developer for UCI Commit the Change &#123;💜&#125;! <br />
             <br />
             I'm interested in exploring different software and hardware
             technologies, from web development to microcontrollers and PCB
