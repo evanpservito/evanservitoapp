@@ -1,12 +1,12 @@
 import React from "react";
-import profile from "../../src/assets/profile.JPG";
+import additional from "../data/additional";
 import {
   BsLinkedin,
   BsGithub,
   BsFillFileEarmarkPersonFill,
   BsDownload,
 } from "react-icons/bs";
-import resume from "../../src/assets/Evan Servito Resume.pdf";
+
 const Introduction = () => {
   return (
     <div
@@ -26,7 +26,7 @@ const Introduction = () => {
             <br />
             I'm interested in exploring different software and hardware
             technologies, from web development to microcontrollers and PCB
-            design.
+            design, striving to create a positive impact through my work!
           </p>
         </div>
         <div className="relative w-96 mt-8 md:ml-8 flex items-center justify-center ">
@@ -34,7 +34,7 @@ const Introduction = () => {
           <div className="absolute top-2 -right-4 w-64 h-64 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-3000"></div>
           <div className="absolute top-4 left-10 w-64 h-64 bg-green-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-5000"></div>
           <img
-            src={profile}
+            src={additional.profile}
             alt="profile-img"
             className="w-64 h-auto rounded-full border-2 border-stone-500 z-10"
           />
@@ -52,7 +52,7 @@ const Introduction = () => {
             <BsGithub /> Github
           </button>
         </a>
-        <a href={resume} download="Evan Servito Resume">
+        <a href={additional.resume} download="Evan Servito Resume">
           <button className="flex flex-row items-center justify-center gap-2 transition duration-300 hover:scale-110 hover:shadow-xl font-bold py-2 px-4 rounded border-2 border-stone-900">
             <BsFillFileEarmarkPersonFill />
             Resume <BsDownload />
