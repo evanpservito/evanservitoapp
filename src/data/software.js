@@ -11,7 +11,7 @@ export default [
     title: "Cell Dogs: Canine Tracker",
     imgUrl: "/assets/cell-dogs-facilities.png",
     layerUrl: "/assets/cds-asset.png",
-    stack: ["React.js", "Node.js"],
+    stack: ["React.js", "Node.js", "PostgreSQL"],
     description:
       "A canine tracker for NPO Cell Dogs to manage dogs in training at correctional programs as well as adoption! Developed alongside Commit the Change at UC Irvine 🐕",
   },
