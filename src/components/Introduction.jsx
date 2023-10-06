@@ -18,7 +18,7 @@ const Introduction = () => {
         <p className="animate-pulse">.</p>
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center p-8 ">
-        <div className="w-96 h-auto mb-8 md:mr-8 z-10">
+        <div className="w-96 h-auto mt-8 md:mr-8 z-10">
           <p className="text-sm md:text-base font-regular">
             I'm a 3rd year Computer Science & Engineering student at the
             University of California, Irvine. I'm interested in exploring
