@@ -21,12 +21,10 @@ const Introduction = () => {
         <div className="w-96 h-auto mb-8 md:mr-8 z-10">
           <p className="text-sm md:text-base font-regular">
             I'm a 3rd year Computer Science & Engineering student at the
-            University of California, Irvine. I'm currently a full-stack
-            developer for UCI Commit the Change &#123;💜&#125;! <br />
-            <br />
-            I'm interested in exploring different software and hardware
-            technologies, from web development to microcontrollers and PCB
-            design, striving to create a positive impact through my work!
+            University of California, Irvine. I'm interested in exploring
+            different software and hardware technologies, from web development
+            to microcontrollers and PCB design, striving to create a positive
+            impact through my work! 💻
           </p>
         </div>
         <div className="relative w-96 mt-8 md:ml-8 flex items-center justify-center ">
