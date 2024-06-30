@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import software from "../data/software";
 import hardware from "../data/hardware";
 import ProjectLeft from "./ProjectLeft";

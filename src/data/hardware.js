@@ -1,5 +1,13 @@
 export default [
   {
+    title: "Micromouse",
+    imgUrl: "/assets/micromouse.jpg",
+    layerUrl: "",
+    stack: ["C++", "STM32", "KiCad"],
+    description:
+      "A miniature autonomous robot with an intelligent navigation algorithm to solve a 16 x 16 maze 🐭",
+  },
+  {
     title: "Remote-Controlled Rover",
     imgUrl: "/assets/rover.jpg",
     layerUrl: "",

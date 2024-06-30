@@ -1,4 +1,3 @@
-import React from "react";
 import additional from "../data/additional";
 import {
   BsLinkedin,
@@ -20,11 +19,12 @@ const Introduction = () => {
       <div className="flex flex-col md:flex-row items-center justify-center p-8 ">
         <div className="w-96 h-auto mt-8 md:mr-8 z-10">
           <p className="text-sm md:text-base font-regular">
-            I'm a 3rd year Computer Science & Engineering student at the
-            University of California, Irvine. I'm interested in exploring
+            I am a rising senior studying Computer Science & Engineering at the
+            University of California, Irvine. I am interested in exploring
             different software and hardware technologies, from web development
             to microcontrollers and PCB design, striving to create a positive
-            impact through my work! 💻
+            impact through my work! Currently, I am a lead and developer for the
+            UCI ZotBins web & mobile team ♻️!
           </p>
         </div>
         <div className="relative w-96 mt-8 md:ml-8 flex items-center justify-center ">
@@ -50,7 +50,7 @@ const Introduction = () => {
             <BsGithub /> Github
           </button>
         </a>
-        <a href={additional.resume} download="Evan Servito Resume">
+        <a href={additional.resume} download="Evan Servito - Resume">
           <button className="flex flex-row items-center justify-center gap-2 transition duration-300 hover:scale-110 hover:shadow-xl font-bold py-2 px-4 rounded border-2 border-stone-900">
             <BsFillFileEarmarkPersonFill />
             Resume <BsDownload />
