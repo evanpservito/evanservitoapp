@@ -23,8 +23,8 @@ const Introduction = () => {
             University of California, Irvine. I am interested in exploring
             different software and hardware technologies, from web development
             to microcontrollers and PCB design, striving to create a positive
-            impact through my work! Currently, I am a lead and developer for the
-            UCI ZotBins web & mobile team ♻️!
+            impact through my work! Currently, I am a subgroup lead for the UCI
+            ZotBins web & mobile team ♻️!
           </p>
         </div>
         <div className="relative w-96 mt-8 md:ml-8 flex items-center justify-center ">
