@@ -1,5 +1,13 @@
 export default [
   {
+    title: "ZotZero: Environmental Sustainabilty App",
+    imgUrl: "/assets/zotzero-design.png",
+    layerUrl: "/assets/zotbins-logo.png",
+    stack: ["React Native", "Node.js", "Firebase"],
+    description:
+      "Building a mobile app with UCI ZotBins to allow users to capture photos of their food waste and recommend them the correct waste bin to improve waste diversion rates ♻️",
+  },
+  {
     title: "Mailbi: Mail Management System",
     imgUrl: "/assets/mailbi-package-status.png",
     layerUrl: "/assets/mailbi logo v1.png",
