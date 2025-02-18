@@ -1,13 +1,14 @@
+import Link from "next/link";
 import React from "react";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row pl-24">
-      <div className="w-1/2">
+    <div className="flex flex-row pl-36 w-full h-full">
+      <div className="w-1/2 flex flex-col justify-center">
         <p className="text-xl font-KodeMono text-purple">Hello!</p>
         <p className="text-8xl font-DMSans font-bold">I'm Evan Servito.</p>
-        <p className="text-grey">
+        <p className="text-grey font-Rubik">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -15,10 +16,22 @@ const Hero = () => {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </p>
+
+        <div className="flex flex-row space-x-4 pt-4 ">
+          <button className="border-purple border-2 rounded-md py-4 px-8 font-KodeMono text-purple">
+            <Link href="#projects">See what I'm up to</Link>
+          </button>
+          <button className="font-kodeMono py-4 px-8 rounded-md font-KodeMono bg-white text-black">
+            Resume
+          </button>
+        </div>
       </div>
-      <div className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 px-8 rounded-md">
-        <FaLinkedin size={48} />
-        <FaInstagram size={48} />
+
+      <div className="w-1/2 h-full flex items-center justify-end">
+        <div className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit">
+          <FaLinkedin size={48} />
+          <FaInstagram size={48} />
+        </div>
       </div>
     </div>
   );

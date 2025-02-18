@@ -1,13 +1,11 @@
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
-import Header from "./components/Navbar";
 import Projects from "./components/Projects";
 
 export default function Home() {
   return (
     <div className="p-8 h-full">
-      <Header />
       <div className="h-full flex items-center">
         <Hero />
       </div>

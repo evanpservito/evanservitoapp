@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Kode_Mono, DM_Sans, Rubik } from "next/font/google";
+import Navbar from "./components/Navbar";
 
 const kodeMono = Kode_Mono({
   subsets: ["latin"],
@@ -27,8 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${kodeMono.variable} ${dmSans.variable} font-Rubik h-svh bg-gradient-to-b bg-linear-to-bl from-background to-purple/10`}
+        className={`${kodeMono.variable} ${dmSans.variable} ${rubik.variable} h-svh bg-gradient-to-b bg-linear-to-bl from-background to-purple/10 bg-fixed`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
