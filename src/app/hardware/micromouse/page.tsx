@@ -1,7 +1,7 @@
 import ProjectExpanded from "@/app/components/ProjectExpanded";
 import React from "react";
 
-const ZotBins = () => {
+const Micromouse = () => {
   return (
     <div>
       <ProjectExpanded />
@@ -9,4 +9,4 @@ const ZotBins = () => {
   );
 };
 
-export default ZotBins;
+export default Micromouse;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="w-1/2 h-full flex items-center justify-end">
         <div className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit">
           <FaLinkedin size={48} />
-          <FaInstagram size={48} />
+          <FaGithub size={48} />
         </div>
       </div>
     </div>

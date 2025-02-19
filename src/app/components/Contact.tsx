@@ -1,11 +1,11 @@
 import React from "react";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="flex flex-row pl-36 w-full h-full font-Rubik">
-      <div className="flex flex-col w-1/2 justify-center">
-        <p className="text-6xl font-DMSans font-bold pb-8">Projects</p>
+    <div className="flex flex-row pl-36 w-full h-full items-center">
+      <div className="flex flex-col justify-start space-y-4 w-4/5 h-1/2">
+        <p className="text-6xl font-DMSans font-bold pb-8">Contact</p>
         <form
           action="https://getform.io/f/4fa4d537-adaa-4d5c-9e64-88ec463d1310"
           method="POST"
@@ -26,7 +26,7 @@ const Contact = () => {
           <textarea
             name="message"
             placeholder="Message"
-            rows={8}
+            rows={6}
             className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none w-full"
           />
           <button
@@ -40,7 +40,7 @@ const Contact = () => {
       <div className="w-1/2 h-full flex items-center justify-end">
         <div className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit">
           <FaLinkedin size={48} />
-          <FaInstagram size={48} />
+          <FaGithub size={48} />
         </div>
       </div>
     </div>

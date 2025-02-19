@@ -1,7 +1,12 @@
+import ProjectExpanded from "@/app/components/ProjectExpanded";
 import React from "react";
 
 const CellDogs = () => {
-  return <div>CellDogs</div>;
+  return (
+    <div>
+      <ProjectExpanded />
+    </div>
+  );
 };
 
 export default CellDogs;

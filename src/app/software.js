@@ -1,0 +1,47 @@
+export const software = [
+  {
+    title: "ZotBins",
+    desc: "Improving waste diversion rates through technology geared towards sustainability ♻️",
+    imgPath: "/assets/zotbins.png",
+    link: "zotbins",
+    location: "Irvine, CA",
+    time: "November 2023 - Present",
+    points: [
+      "Developing a zero-waste management web and mobile application to promote environmental sustainability with the UCI ZotBins research team",
+      "Implementing a waste recognition model into the mobile application to allow users to scan and identify various types of waste",
+      "Refactoring the web-based waste management system utilized by UCI administration for improved user experience, security, and reliability",
+      "Securing user information and zero-waste data through Cloud Firestore Authentication and Collections",
+    ],
+    technologies: ["React Native", "Expo", "Firebase", "Mapbox"],
+  },
+  {
+    title: "Mailbi",
+    desc: "A management system and communication software to track delivered packages organized for collection 📦",
+    imgPath: "/assets/mailbi.png",
+    link: "mailbi",
+    location: "Seattle, WA",
+    time: "June 2023 - December 2023",
+    points: [
+      "Constructed a web-based management system to handle 50+ packages daily at Mailpost Sammamish to track delivered and collected packages",
+      "Implemented messaging service feature to notify 350+ customers the status of their mail through Twilio API",
+      "Managed customer and package information via Cloud Firestore Authentication and Collection",
+      "Established a secure login system utilizing Firebase authentication and authorization tools",
+    ],
+    technologies: ["React.js", "Node.js", "Firebase"],
+  },
+  {
+    title: "Cell Dogs",
+    desc: "A canine tracker to manage dogs in training at correctional programs as well as adoption 🐕",
+    imgPath: "/assets/celldogs.png",
+    link: "celldogs",
+    location: "Irvine, CA",
+    time: "September 2022 - June 2023",
+    points: [
+      "Coordinated with UCI Commit the Change developer team to construct a canine tracker for NPO Cell Dogs to manage dogs in training at correctional programs as well as adoption",
+      "Collaborated alongside UCI Commit the Change designer team to build a user-friendly frontend interface, such as login page, navigation bar, 404/error pages, and mobile view, to reflect Figma design",
+      "Managed data of dogs and facilities through PostgreSQL database system",
+      "Enhanced security of requests with Firebase authentication",
+    ],
+    technologies: ["React.js", "Node.js", "Firebase", "PostgreSQL"],
+  },
+];
