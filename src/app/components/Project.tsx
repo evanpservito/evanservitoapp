@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import React from "react";
 
 interface ProjectProps {
@@ -7,7 +8,7 @@ interface ProjectProps {
 }
 const Project = ({ title, desc, imgPath }: ProjectProps) => {
   return (
-    <div className="border-2 rounded-md p-4 w-full">
+    <div className="border-2 rounded-md p-4 w-full transition hover:scale-110 hover:border-purple hover:duration-250">
       <p className="font-Rubik font-bold">{title}</p>
       <p className="font-KodeMono text-grey">[ {desc} ]</p>
     </div>

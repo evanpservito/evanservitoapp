@@ -18,10 +18,10 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-row space-x-4 pt-4 ">
-          <button className="border-purple border-2 rounded-md py-4 px-8 font-KodeMono text-purple">
+          <button className="border-purple border-2 rounded-md py-4 px-8 font-KodeMono text-purple transition hover:scale-110 hover:duration-250 hover:text-white hover:border-white">
             <Link href="#projects">See what I'm up to</Link>
           </button>
-          <button className="font-kodeMono py-4 px-8 rounded-md font-KodeMono bg-white text-black">
+          <button className="font-kodeMono py-4 px-8 rounded-md font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
             Resume
           </button>
         </div>

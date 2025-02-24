@@ -26,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
-        className={`${kodeMono.variable} ${dmSans.variable} ${rubik.variable} h-svh bg-gradient-to-b bg-linear-to-bl from-background to-purple/10 bg-fixed`}
+        className={`${kodeMono.variable} ${dmSans.variable} ${rubik.variable} h-svh bg-gradient-to-b bg-linear-to-bl from-background to-purple/10 bg-fixed `}
       >
         <Navbar />
         {children}

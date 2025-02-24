@@ -9,29 +9,29 @@ const Contact = () => {
         <form
           action="https://getform.io/f/4fa4d537-adaa-4d5c-9e64-88ec463d1310"
           method="POST"
-          className="flex flex-col items-center justify-center w-full"
+          className="font-Rubik flex flex-col items-center justify-center w-full"
         >
           <input
             type="text"
             name="name"
             placeholder="Name"
-            className="p-2 bg-transparent border-2 rounded-md focus:outline-none w-full"
+            className="font-Rubik p-2 bg-transparent border-2 rounded-md focus:outline-none w-full"
           />
           <input
             type="text"
             name="email"
             placeholder="Email"
-            className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none w-full"
+            className="font-Rubik my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none w-full"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows={6}
-            className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none w-full"
+            className="font-Rubik p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none w-full"
           />
           <button
             type="submit"
-            className="w-full transition duration-300 hover:scale-110 hover:shadow-xl text-center inline-block px-8 py-3 2-max text-base font-medium rounded-md bg-purple"
+            className="font-Rubik w-full transition hover:scale-110 hover:duration-250 hover:text-purple hover:bg-white hover:shadow-xl text-center inline-block px-8 py-3 2-max text-base font-medium rounded-md bg-purple"
           >
             Contact Me
           </button>

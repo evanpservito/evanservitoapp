@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { software } from "../software";
 import { hardware } from "../hardware";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const ProjectExpanded = () => {
   const pathname = usePathname();
@@ -29,7 +30,7 @@ const ProjectExpanded = () => {
     <div className="flex items-center justify-center h-svh ">
       <div className="absolute left-6">
         <Link href={"/#projects"}>
-          <p className="[writing-mode:sideways-lr] text-xl px-8 font-KodeMono">
+          <p className="[writing-mode:sideways-lr] text-xl px-8 font-KodeMono transition hover:scale-110 hover:duration-250 hover:text-purple">
             [ Return ]
           </p>
         </Link>
