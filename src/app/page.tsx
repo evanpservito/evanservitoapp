@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";

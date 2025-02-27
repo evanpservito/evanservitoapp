@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -7,7 +9,12 @@ const Navbar = () => {
     { title: "Contact", path: "/#contact" },
   ];
   return (
-    <div className="flex flex-row justify-between fixed top-8 right-8 left-8">
+    <motion.div
+      className="flex flex-row justify-between fixed top-8 right-8 left-8"
+      initial={{ scale: 1.1, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <Link href={"/"}>
         <p className="font-DMSans font-bold text-purple transition hover:scale-110 hover:duration-250 hover:text-white">
           [ Evan Servito ]
@@ -16,13 +23,13 @@ const Navbar = () => {
       <div className="flex flex-row space-x-8 font-KodeMono">
         {navLinks.map((link) => (
           <Link key={link.title} href={link.path}>
-            <p className="hover:text-white/50 transition hover:scale-110 hover:duration-250 hover:text-purple">
+            <p className="transition hover:scale-110 hover:duration-250 hover:text-purple">
               [ {link.title} ]
             </p>
           </Link>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

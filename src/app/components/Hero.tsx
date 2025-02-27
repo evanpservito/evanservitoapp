@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import Link from "next/link";
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -5,7 +7,12 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="flex flex-row pl-36 w-full h-full">
-      <div className="w-1/2 flex flex-col justify-center">
+      <motion.div
+        className="w-1/2 flex flex-col justify-center"
+        initial={{ scale: 0.75, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <p className="text-xl font-KodeMono text-purple">Hello!</p>
         <p className="text-8xl font-DMSans font-bold">I'm Evan Servito.</p>
         <p className="text-grey font-Rubik">
@@ -25,13 +32,30 @@ const Hero = () => {
             Resume
           </button>
         </div>
-      </div>
+      </motion.div>
 
       <div className="w-1/2 h-full flex items-center justify-end">
-        <div className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit">
-          <FaLinkedin size={48} />
-          <FaGithub size={48} />
-        </div>
+        <motion.div
+          className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <a
+            href="https://www.linkedin.com/in/evan-servito/"
+            target="_blank"
+            className="transition hover:scale-110 hover:duration-250 hover:text-purple"
+          >
+            <FaLinkedin size={48} />
+          </a>
+          <a
+            href="https://github.com/evanpservito"
+            target="_blank"
+            className="transition hover:scale-110 hover:duration-250 hover:text-purple"
+          >
+            <FaGithub size={48} />
+          </a>
+        </motion.div>
       </div>
     </div>
   );
