@@ -1,9 +1,12 @@
 "use client";
 import { motion } from "motion/react";
-import React from "react";
+import React, { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <div className="flex flex-col lg:flex-row xl:pl-36 w-full h-full items-center">
       <motion.div
@@ -25,22 +28,30 @@ const Contact = () => {
             name="name"
             placeholder="Name"
             className="font-KodeMono p-2 bg-transparent border-2 rounded-lg focus:outline-none w-full"
+            onChange={(e) => setName(e.target.value)}
           />
           <input
             type="text"
             name="email"
             placeholder="Email"
             className="font-KodeMono my-2 p-2 bg-transparent border-2 rounded-lg focus:outline-none w-full"
+            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
             name="message"
             placeholder="Message"
             rows={6}
             className="font-KodeMono p-2 mb-4 bg-transparent border-2 rounded-lg focus:outline-none w-full"
+            onChange={(e) => setMessage(e.target.value)}
           />
           <button
             type="submit"
-            className="font-KodeMono w-full transition hover:scale-110 hover:duration-250 hover:text-purple hover:bg-white hover:shadow-xl text-left inline-block px-2 py-3 2-max text-base font-medium rounded-lg bg-purple"
+            className={`font-KodeMono w-full transition  text-left inline-block px-2 py-3 2-max text-base font-medium rounded-lg bg-purple ${
+              name === "" || email === "" || message === ""
+                ? "cursor-not-allowed opacity-50"
+                : "hover:scale-110 hover:duration-250 hover:text-purple hover:bg-white hover:shadow-xl"
+            }`}
+            disabled={name === "" || email === "" || message === ""}
           >
             Contact Me
           </button>
