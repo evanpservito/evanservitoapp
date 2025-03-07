@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
 
 export const metadata: Metadata = {
-  title: "Evan Servito",
+  title: "Evan Servito's Portfolio",
   description: "A portfolio curated by Evan Servito",
 };
 
@@ -29,12 +29,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${kodeMono.variable} ${dmSans.variable} ${rubik.variable} h-svh bg-gradient-to-b bg-linear-to-bl from-background to-purple/10 bg-fixed `}
+        className={`${kodeMono.variable} ${dmSans.variable} ${rubik.variable} h-svh bg-gradient-to-b bg-linear-to-bl from-black to-purple/10 bg-fixed`}
       >
         <Navbar />
-        <div className="z-[-100] absolute invert">
+        {/* <div className="z-[-100] absolute invert">
           <Meteors number={20} />
-        </div>
+        </div> */}
 
         {children}
       </body>

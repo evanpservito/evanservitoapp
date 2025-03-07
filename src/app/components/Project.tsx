@@ -8,9 +8,9 @@ interface ProjectProps {
 }
 const Project = ({ title, desc, imgPath }: ProjectProps) => {
   return (
-    <div className="border-2  p-4 w-full transition hover:scale-110 hover:border-purple hover:duration-250 rounded-xl">
-      <p className="font-Rubik font-bold">{title}</p>
-      <p className="font-KodeMono text-grey">[ {desc} ]</p>
+    <div className="border-2 px-4 py-12 lg:p-4 w-full lg:w-4/5 transition hover:scale-110 hover:border-purple hover:duration-250 rounded-xl">
+      <p className="font-Rubik font-bold text-xl lg:text-lg">{title}</p>
+      <p className="hidden lg:flex font-KodeMono text-grey ">[ {desc} ]</p>
     </div>
   );
 };

@@ -6,35 +6,57 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex flex-row pl-36 w-full h-full">
+    <div className="lg:flex lg:flex-row xl:pl-36 w-full h-full">
       <motion.div
-        className="w-1/2 flex flex-col justify-center"
+        className="lg:w-1/2 flex flex-col justify-center"
         initial={{ scale: 0.75, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <p className="text-xl font-KodeMono text-purple">Hello!</p>
-        <p className="text-8xl font-DMSans font-bold">I'm Evan Servito.</p>
-        <p className="text-grey font-Rubik">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+        <p className="text-lg lg:text-xl font-KodeMono text-purple animate-bounce">
+          Hello!
+        </p>
+        <p className="text-4xl md:text-5xl lg:text-8xl font-DMSans font-bold">
+          I'm Evan Servito.
+        </p>
+        <p className="text-sm lg:text-lg text-grey font-Rubik">
+          I am a senior studying Computer Science & Engineering at the
+          University of California, Irvine. I am interested in exploring
+          different software and hardware technologies, from web development to
+          microcontrollers and PCB design, striving to create a positive impact
+          through my work!
         </p>
 
-        <div className="flex flex-row space-x-4 pt-4 ">
-          <button className="border-purple border-2 rounded-md py-4 px-8 font-KodeMono text-purple transition hover:scale-110 hover:duration-250 hover:text-white hover:border-white">
+        <div className="lg:flex flex-row lg:space-x-4 pt-4 max-lg:space-y-4">
+          <button className="border-purple border-2 rounded-lg py-4 w-full lg:px-8 font-KodeMono text-purple transition hover:scale-110 hover:duration-250 hover:text-white hover:border-white">
             <Link href="#projects">See what I'm up to</Link>
           </button>
-          <button className="font-kodeMono py-4 px-8 rounded-md font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
+          <button className="hidden lg:flex font-kodeMono py-4 px-14 lg:px-8 rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
             Resume
           </button>
+          <div className="flex flex-row justify-between lg:hidden space-x-4">
+            <button className="font-kodeMono py-4 w-full rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
+              Resume
+            </button>
+            <a
+              href="https://www.linkedin.com/in/evan-servito/"
+              target="_blank"
+              className="transition hover:scale-110 hover:duration-250 hover:text-purple"
+            >
+              <FaLinkedin size={60} />
+            </a>
+            <a
+              href="https://github.com/evanpservito"
+              target="_blank"
+              className="transition hover:scale-110 hover:duration-250 hover:text-purple"
+            >
+              <FaGithub size={60} />
+            </a>
+          </div>
         </div>
       </motion.div>
 
-      <div className="w-1/2 h-full flex items-center justify-end">
+      <div className="hidden w-1/2 h-full lg:flex items-center justify-end">
         <motion.div
           className="w-1/2 border-r-2 flex flex-col items-end justify-center space-y-8 p-8 h-fit"
           initial={{ opacity: 0 }}

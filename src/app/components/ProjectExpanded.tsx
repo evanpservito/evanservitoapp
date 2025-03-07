@@ -27,22 +27,9 @@ const ProjectExpanded = () => {
         ];
 
   return (
-    <div className="flex items-center justify-center h-svh ">
+    <div className="flex items-center justify-center h-svh">
       <motion.div
-        className="absolute left-6"
-        initial={{ x: -150, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <Link href={"/#projects"}>
-          <p className="[writing-mode:sideways-lr] text-xl px-8 font-KodeMono transition hover:scale-110 hover:duration-250 hover:text-purple">
-            [ Return ]
-          </p>
-        </Link>
-      </motion.div>
-
-      <motion.div
-        className="border-2 rounded-md p-16 border-purple max-w-7xl flex flex-row"
+        className="p-16 max-w-7xl hidden lg:flex flex-row"
         initial={{ scale: 0.75, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1 }}
@@ -74,6 +61,47 @@ const ProjectExpanded = () => {
             height={400}
             alt={currentProject.title}
           />
+        </div>
+      </motion.div>
+
+      <motion.div
+        className="w-full flex flex-col lg:hidden justify-center items-center"
+        initial={{ scale: 0.75, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <div className="w-full flex items-center justify-center py-8">
+          <Image
+            src={currentProject.imgPath}
+            width={200}
+            height={200}
+            alt={currentProject.title}
+          />
+        </div>
+
+        <div className="flex flex-col w-full items-center justify-center">
+          <p className="text-4xl lg:text-6xl font-Rubik font-bold">
+            {currentProject.title}
+          </p>
+          <p className="text-sm lg:text-md font-KodeMono pt-2">
+            [ {currentProject.time} ]
+          </p>
+          <ul className="text-sm lg:text-md text-grey font-Rubik list-disc lg:pl-4 justify-center py-8 w-4/5">
+            {currentProject.points.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+          <div className="flex flex-row lg:space-x-2 font-KodeMono">
+            {currentProject.technologies.map((technology, index) => (
+              <div className="flex flex-row lg:space-x-2" key={index}>
+                <p className="text-[10px] lg:text-md">{index != 0 && "•"}</p>
+                <p className="text-[10px] lg:text-md " key={index}>
+                  {" "}
+                  [ {technology} ]
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </motion.div>
     </div>
