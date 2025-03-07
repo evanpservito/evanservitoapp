@@ -2,6 +2,7 @@
 import { motion } from "motion/react";
 import Link from "next/link";
 import React from "react";
+import { BsDownload } from "react-icons/bs";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
@@ -31,13 +32,26 @@ const Hero = () => {
           <button className="border-purple border-2 rounded-lg py-4 w-full lg:px-8 font-KodeMono text-purple transition hover:scale-110 hover:duration-250 hover:text-white hover:border-white">
             <Link href="#projects">See what I'm up to</Link>
           </button>
-          <button className="hidden lg:flex font-kodeMono py-4 px-14 lg:px-8 rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
-            Resume
-          </button>
-          <div className="flex flex-row justify-between lg:hidden space-x-4">
-            <button className="font-kodeMono py-4 w-full rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
-              Resume
+          <a
+            href="./downloads/Evan Servito - Resume.pdf"
+            download="Evan Servito - Resume"
+            className="w-full h-full flex"
+          >
+            <button className="hidden lg:flex font-kodeMono py-4 px-14 justify-center items-center gap-2 lg:px-8 rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
+              Resume <BsDownload />
             </button>
+          </a>
+          <div className="flex flex-row justify-between lg:hidden space-x-4 w-full">
+            <a
+              href="./downloads/Evan Servito - Resume.pdf"
+              download="Evan Servito - Resume"
+              className="w-full flex"
+            >
+              <button className="font-kodeMono py-4 flex flex-row justify-center items-center gap-2 w-full rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
+                Resume <BsDownload />
+              </button>
+            </a>
+
             <a
               href="https://www.linkedin.com/in/evan-servito/"
               target="_blank"

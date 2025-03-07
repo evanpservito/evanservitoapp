@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { motion } from "motion/react";
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -71,10 +70,7 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      <div className="flex flex-row justify-between lg:hidden w-full space-x-4">
-        <button className="font-kodeMono py-4 w-full  rounded-lg font-KodeMono bg-white text-black transition hover:scale-110 hover:duration-250 hover:bg-purple hover:text-white">
-          Resume
-        </button>
+      <div className="flex flex-row justify-center lg:hidden w-full space-x-4">
         <a
           href="https://www.linkedin.com/in/evan-servito/"
           target="_blank"
