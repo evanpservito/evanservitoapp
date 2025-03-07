@@ -41,7 +41,7 @@ const Navbar = () => {
             {pathname === "/" ? "[ ES ]" : "[ Return Home ]"}
           </p>
         </Link>
-        <RxHamburgerMenu size={21} />
+        {/* <RxHamburgerMenu size={21} /> */}
       </div>
     </motion.div>
   );
