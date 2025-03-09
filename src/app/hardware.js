@@ -7,11 +7,10 @@ export const hardware = [
     location: "Irvine, CA",
     time: "October 2023 - June 2024",
     points: [
-      "Collaborated within a student-led team to engineer a miniature autonomous robot that solves a 16 x 16 maze via an intelligent navigation algorithm",
-      "Designed a PCB with dimensions less than 100mm x 100mm via KiCad to host integrated circuits, motors, and supporting electrical components",
+      "Collaborated within a student-led team to engineer an autonomous robot to solve a 16 x 16 maze via an intelligent navigation algorithm",
+      "Designed a PCB with dimensions less than 100mm x 100mm in KiCad to host integrated circuits, motors, and electrical components",
       "Configured physical sensors on the robot to perceive the walls of the maze as well as distance traveled",
-      "Competed robot in All America Micromouse Competition at UCLA",
     ],
-    technologies: ["C++", "STM32", "KiCad"],
+    technologies: ["C++", "STM32"],
   },
 ];

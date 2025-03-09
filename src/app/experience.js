@@ -6,8 +6,7 @@ export const experiences = [
     time: "July 2024 - September 2024",
     points: [
       "Constructed an interactive platform committed to financial education and empowerment via gamification through Agile software development",
-      "Assisted with communication between Plaid Inc. representatives and project team to establish resource requirements",
-      "Established Plaid API calls to 6 endpoints to develop a secure financial integration system and receive financial insights",
+      "Established 6 Plaid API endpoints to develop a secure financial integration system and receive financial insights",
       "Curated user dashboard with Bubble to highlight essential user financial information, including balances, transactions, liabilities, and investments",
     ],
     type: "work",
@@ -30,8 +29,8 @@ export const experiences = [
     location: "Irvine, CA",
     time: "June 2024 - Present",
     points: [
-      "Leading team of students to build our flagship smart waste bin system, the ZotBin",
-      "Researching methods to improve waste diversion rates and reducing waste management CO2 emissions",
+      "Managing research team of 50 students, divided into 5 subgroups, to design and construct our flagship smart waste bin system, the ZotBin",
+      "Assigning 30+ issues and reviewing 30+ pull requests on GitHub, optimizing development process and organizing codebase",
     ],
     type: "club",
   },
@@ -41,7 +40,7 @@ export const experiences = [
     location: "Irvine, CA",
     time: "October 2022 - Present",
     points: [
-      "Designing and constructing embedded electronic projects, such as a daylight detector, weather station, and autonomous robot",
+      "Designing and constructing 8 embedded electronic projects, such as a daylight detector, weather station, and autonomous robot",
       "Exercising fundamentals of circuits, microcontrollers, PCB design, hardware communication, and soldering",
     ],
     type: "club",

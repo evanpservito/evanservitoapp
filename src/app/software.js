@@ -7,12 +7,11 @@ export const software = [
     location: "Irvine, CA",
     time: "November 2023 - Present",
     points: [
-      "Developing a zero-waste management web and mobile application to promote environmental sustainability with the UCI ZotBins research team",
-      "Implementing a waste recognition model into the mobile application to allow users to scan and identify various types of waste",
-      "Refactoring the web-based waste management system utilized by UCI administration for improved user experience, security, and reliability",
-      "Securing user information and zero-waste data through Cloud Firestore Authentication and Collections",
+      "Curating 12+ features and 19+ screens within a mobile application alongside 8 developers and designers to improve waste diversion rates and promote campus-wide sustainability",
+      "Implementing a Meta Detectron2 image segmentation model for users to scan and identify 60 categories of food waste for proper disposal",
+      "Integrating real-time bin data, such as bin capacity and food waste composition, stored in TimescaleDB and retrieved via AWS Lambda",
     ],
-    technologies: ["React Native", "Expo", "Firebase", "Mapbox"],
+    technologies: ["React Native", "Expo", "Node", "Firebase"],
   },
   {
     title: "Mailbi",
@@ -22,12 +21,10 @@ export const software = [
     location: "Seattle, WA",
     time: "June 2023 - December 2023",
     points: [
-      "Constructed a web-based management system to handle 50+ packages daily at Mailpost Sammamish to track delivered and collected packages",
-      "Implemented messaging service feature to notify 350+ customers the status of their mail through Twilio API",
-      "Managed customer and package information via Cloud Firestore Authentication and Collection",
-      "Established a secure login system utilizing Firebase authentication and authorization tools",
+      "Constructed a web portal to handle 50+ packages daily at Mailpost Sammamish to track delivered and collected packages",
+      "Implemented instant messaging service feature to notify 350+ customers the status of their mail through Twilio API",
     ],
-    technologies: ["React.js", "Node.js", "Firebase"],
+    technologies: ["React", "Node", "Firebase"],
   },
   {
     title: "Cell Dogs",
@@ -38,10 +35,8 @@ export const software = [
     time: "September 2022 - June 2023",
     points: [
       "Coordinated with UCI Commit the Change developer team to construct a canine tracker for NPO Cell Dogs to manage dogs in training at correctional programs as well as adoption",
-      "Collaborated alongside UCI Commit the Change designer team to build a user-friendly frontend interface, such as login page, navigation bar, 404/error pages, and mobile view, to reflect Figma design",
-      "Managed data of dogs and facilities through PostgreSQL database system",
-      "Enhanced security of requests with Firebase authentication",
+      "Collaborated alongside UCI Commit the Change designer team to build a user-friendly frontend interface, including a login page, navigation bar, 404/error page, and mobile view, to reflect Figma design utilizing Chakra UI library",
     ],
-    technologies: ["React.js", "Node.js", "Firebase", "PostgreSQL"],
+    technologies: ["React", "Node", "PostgreSQL", "Firebase"],
   },
 ];
