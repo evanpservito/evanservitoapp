@@ -23,8 +23,8 @@ const Hero = () => {
         <p className="text-sm lg:text-lg text-grey font-Rubik">
           I am a senior studying Computer Science & Engineering at the
           University of California, Irvine. I am interested in exploring
-          different software and hardware technologies, from web development to
-          microcontrollers and PCB design, striving to create a positive impact
+          different software and hardware technologies, from full-stack web
+          development to microcontrollers, striving to create a positive impact
           through my work!
         </p>
 
