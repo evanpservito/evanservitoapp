@@ -6,7 +6,7 @@ export const experiences = [
     time: "July 2024 - September 2024",
     points: [
       "Constructed an interactive platform committed to financial education and empowerment via gamification through Agile software development",
-      "Established 6 Plaid API endpoints to develop a secure financial integration system and receive financial insights",
+      "Established calls to 6 Plaid API endpoints to develop a secure financial integration system and receive financial insights",
       "Curated user dashboard with Bubble to highlight essential user financial information, including balances, transactions, liabilities, and investments",
     ],
     type: "work",
