@@ -21,11 +21,9 @@ const Hero = () => {
           I'm Evan Servito.
         </p>
         <p className="text-sm lg:text-lg text-grey font-Rubik">
-          I am a senior studying Computer Science & Engineering at the
-          University of California, Irvine. I am interested in exploring
-          different software and hardware technologies, from full-stack web
-          development to microcontrollers, striving to create a positive impact
-          through my work!
+          I am interested in exploring different software and hardware
+          technologies, from full-stack web development to microcontrollers,
+          striving to create a positive impact through my work!
         </p>
 
         <div className="lg:flex flex-row lg:space-x-4 pt-4 max-lg:space-y-4">
