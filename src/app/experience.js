@@ -1,5 +1,16 @@
 export const experiences = [
   {
+    positionTitle: "AI Software Validation Engineer",
+    organization: "DataAnnotation",
+    location: "Irvine, CA",
+    time: "May 2025 - Present",
+    points: [
+      "Refining responses of 5+ LLMs by establishing fine-grained criteria based on instruction-following, accuracy, and helpfulness",
+      "Formulating complex system backend and user prompts and analyzing generated AI-response performance to identify vulnerabilities",
+    ],
+    type: "work",
+  },
+  {
     positionTitle: "Software Engineering Intern",
     organization: "ForOurLastNames",
     location: "Irvine, CA",
@@ -17,9 +28,8 @@ export const experiences = [
     location: "Irvine, CA",
     time: "April 2022 - March 2023",
     points: [
-      "Lead introductory computer science courses to inspired students globally with 120+ hours of tutoring",
+      "Lead 120+ introductory computer science and game design courses to K-12 students globally",
       "Taught essential problem-solving skills and analytical skills through Python projects to 10+ students individually",
-      "Composed detailed and organized session notes after every class to update family of student of their progress",
     ],
     type: "work",
   },
@@ -27,10 +37,10 @@ export const experiences = [
     positionTitle: "Internal Vice President & Subgroup Lead",
     organization: "ZotBins",
     location: "Irvine, CA",
-    time: "June 2024 - Present",
+    time: "June 2024 - March 2025",
     points: [
-      "Managing research team of 50 students, divided into 5 subgroups, to design and construct our flagship smart waste bin system, the ZotBin",
-      "Assigning 30+ issues and reviewing 30+ pull requests on GitHub, optimizing development process and organizing codebase",
+      "Managed research team of 50 students, divided into 5 subgroups, to design and construct our flagship smart waste bin system, the ZotBin",
+      "Assigned 30+ issues and reviewed 30+ pull requests on GitHub, optimizing development process and organizing codebase",
     ],
     type: "club",
   },
@@ -38,10 +48,10 @@ export const experiences = [
     positionTitle: "Open Project Space & Micromouse Member",
     organization: "IEEE@UCI",
     location: "Irvine, CA",
-    time: "October 2022 - Present",
+    time: "October 2022 - March 2025",
     points: [
-      "Designing and constructing 8 embedded electronic projects, such as a daylight detector, weather station, and autonomous robot",
-      "Exercising fundamentals of circuits, microcontrollers, PCB design, hardware communication, and soldering",
+      "Designed and constructed 8 embedded electronic projects, such as a daylight detector, weather station, and autonomous robot",
+      "Exercised fundamentals of circuits, microcontrollers, PCB design, hardware communication, and soldering",
     ],
     type: "club",
   },
