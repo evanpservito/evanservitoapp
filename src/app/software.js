@@ -4,8 +4,8 @@ export const software = [
     desc: "A management system and communication software to track delivered packages organized for collection 📦",
     imgPath: "/assets/mailbi.png",
     link: "mailbi",
-    location: "Seattle, WA",
-    time: "August - December 2025",
+    location: "Irvine, CA",
+    time: "August 2025 - Present",
     points: [
       "Engineering robust frontend by leveraging server-side rendering optimizations alongside Cognito user authentication and authorization",
       "Establishing serverless architecture using API Gateway and Lambda proxies to handle data within RDS for scalable performance",
