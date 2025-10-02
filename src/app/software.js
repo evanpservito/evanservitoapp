@@ -1,5 +1,19 @@
 export const software = [
   {
+    title: "Mailbi",
+    desc: "A management system and communication software to track delivered packages organized for collection 📦",
+    imgPath: "/assets/mailbi.png",
+    link: "mailbi",
+    location: "Seattle, WA",
+    time: "August - December 2025",
+    points: [
+      "Engineering robust frontend by leveraging server-side rendering optimizations alongside Cognito user authentication and authorization",
+      "Establishing serverless architecture using API Gateway and Lambda proxies to handle data within RDS for scalable performance",
+      "Deployed previous version at Mailpost Sammamish to handle 50+ daily packages and communication with 500+ customers via Twilio API",
+    ],
+    technologies: ["React", "Node", "Firebase"],
+  },
+  {
     title: "ZotBins",
     desc: "Improving waste diversion rates through technology geared towards sustainability ♻️",
     imgPath: "/assets/zotbins.png",
@@ -13,19 +27,7 @@ export const software = [
     ],
     technologies: ["React Native", "Expo", "Node", "Firebase"],
   },
-  {
-    title: "Mailbi",
-    desc: "A management system and communication software to track delivered packages organized for collection 📦",
-    imgPath: "/assets/mailbi.png",
-    link: "mailbi",
-    location: "Seattle, WA",
-    time: "June 2023 - December 2023",
-    points: [
-      "Constructed a web portal to handle 50+ incoming and outgoing packages daily at Mailpost Sammamish",
-      "Implemented instant messaging service feature to notify 500+ customers of mail status through Twilio API",
-    ],
-    technologies: ["React", "Node", "Firebase"],
-  },
+
   {
     title: "Cell Dogs",
     desc: "A canine tracker to manage dogs in training at correctional programs as well as adoption 🐕",
